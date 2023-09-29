@@ -1,29 +1,21 @@
 # Nom final de la formation
 
-Ce dossier Repository est lié au cours `Nom final de la formation`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `Kubernetes pour les développeurs`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![Nom final de la formation][lil-thumbnail-url] 
+![Kubernetes pour les développeurs][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Ce cours est à destination des développeurs mais aussi des architectes souhaitant mettre la main sur Kubernetes avec une approche pratique et par le code. L'apprenant sera capable à la fin de déployer simplement une application ASP.NET Core sur un Kubernetes à la fois en local et sur un environnement hébergé. Le cours aborde également quelques notions avancées permettant à l'apprenant de personnaliser quelques aspects de Kubernetes.
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
-
-## Branches
-
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+Ce dossier Repository contient l'ensemble du code source dans la branche `main`. Le dossier `deploy` est particulièrement intéressant pour tout code concernant les déploiements Kubernetes du cours.
 
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   - .NET Core ;
+   - Docker Desktop :
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
-
 
 ### Formateur
 
@@ -34,6 +26,4 @@ La branche master correspond au code à la fin de la formation.
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
 [lil-thumbnail-url]: https:
-[lil-URL-trainer]: https://
-
-[1]: # (End of FR-Instruction ###############################################################################################)
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/christophe-gigax
