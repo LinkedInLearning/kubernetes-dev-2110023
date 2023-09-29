@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mykubernetesapp-demo
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: mykubernetesapp
+          image: gigaxregistrytest.azurecr.io/mykubernetesapp:latest
+          imagePullPolicy: IfNotPresent
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
+      imagePullSecrets:
+        - name: acr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mykubernetesapp-entrypoint
+  namespace: default
+spec:
+  type: LoadBalancer
+  selector:
+    app: web
+  ports:
+  - port: 80
+    targetPort: 80
