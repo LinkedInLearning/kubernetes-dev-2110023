@@ -4,7 +4,7 @@ Ce dossier Repository est lié au cours `Kubernetes pour les développeurs / dé
 
 ![Kubernetes pour les développeurs][lil-thumbnail-url] 
 
-Kubernetes est un système open source qui permet de gérer des applications conteneurisées à grande échelle. Dans cette formation, vous apprendrez les concepts et les principes de base de Kubernetes, ainsi que les bonnes pratiques pour concevoir, développer, tester et déployer des applications conteneurisées sur Kubernetes.  Cette formation s’adresse aux développeurs / développeuses qui ont déjà une expérience avec les conteneurs Docker et qui souhaitent approfondir leurs connaissances et leurs compétences sur Kubernetes.
+Dans cette formation de Christophe Gigax pour développeurs et architectes serveurs, découvrez Kubernetes pour le développement et le déploiement d'applications. Appréhendez les bases, les prérequis, l'écosystème et l'outil Kubectl. Préparez votre app avec Docker et Kubernetes, créez un projet .NET, configurez un Dockerfile, puis déployez l'app. Abordez la création d'un Azure Container Registry (ACR) pour stocker l'image, et le service Azure Kubernetes Service (AKS) pour le déploiement sur le cloud. La dernière partie inclut des notions avancées : sondes applicatives, requêtes et limites, sécurisation avec les Secrets.
 
 ## Instructions
 
